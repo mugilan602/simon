@@ -4,7 +4,7 @@ var userClickedPattern=[];
 var pressed="false"
 var level=0
 
-$(document).keydown(function(){
+$(document).on("click",function(){
   if (pressed==="false"){
   nextSequence();
   pressed="true";
